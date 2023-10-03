@@ -1,0 +1,403 @@
+/* 1024px */
+@media (max-width: 65rem) {
+  header {
+    padding: var(--space-l) var(--space-l) 0 var(--space-l);
+    margin-bottom: 8.5rem;
+  }
+
+  .hero__sec {
+    max-width: 70rem;
+    padding-inline: var(--space-l);
+  }
+
+  .hero__sec-h1 {
+    font-size: var(--fs-step-3);
+  }
+
+  .hero__sec-paragraph {
+    max-width: 35rem;
+  }
+
+  .hero__sec-btn {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .hero__sec-screen-display {
+    width: 48rem;
+  }
+
+  .hero__sec-analytics-wrapper {
+    gap: 21rem;
+  }
+
+  .content1 {
+    gap: 8rem;
+    padding-inline: var(--space-2xl);
+    padding-block: var(--space-l);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .content1__image {
+    width: 21rem;
+  }
+
+  .content2 {
+    gap: 8rem;
+    padding-inline: var(--space-2xl);
+    padding-block: var(--space-l);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .content2__image {
+    width: 21rem;
+  }
+
+  .content3 {
+    gap: 8rem;
+    padding-inline: var(--space-2xl);
+    padding-block: var(--space-l);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .content3__image {
+    width: 21rem;
+  }
+
+  footer {
+    gap: 10rem;
+    padding: var(--space-l) var(--space-2xl);
+  }
+
+  .footer__wrapper1 {
+    gap: var(--space-m);
+  }
+
+  .footer__wrapper1-text {
+    max-width: 27rem;
+  }
+
+  .footer__wrapper2 {
+    width: 30rem;
+  }
+  
+  .footer__wrapper2-description {
+    max-width: 23rem;
+  }
+
+  .form-wrapper {
+    gap: 2rem;
+  }
+
+  input[type='email'] {
+    width: 15rem;
+  }
+}
+
+
+/* 768px */
+@media (max-width: 49rem) {
+  header {
+    margin-bottom: 8rem;
+  }
+
+  .hero__sec {
+    max-width: 65rem;
+    padding-inline: var(--space-m);
+  }
+
+  .hero__sec-h1 {
+    font-size: var(--fs-step-3);
+  }
+
+  .hero__sec-paragraph {
+    max-width: 31rem;
+  }
+
+  .hero__sec-btn {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .hero__sec-screen-display {
+    width: 39rem;
+    margin-bottom: var(--space-3xl);
+  }
+
+  .hero__sec-analytics-wrapper {
+    gap: 13rem;
+  }
+
+  .content1 {
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 40rem;
+    padding-inline: var(--space-xl);
+    padding-block: var(--space-m);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .content1__text {
+    text-align: center;
+  }
+
+  .content1__description {
+    max-width: 31rem;
+  }
+
+  .content1__image {
+    order: -1;
+  }
+
+  .content2 {
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 40rem;
+    padding-inline: var(--space-xl);
+    padding-block: var(--space-m);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .content2__text {
+    text-align: center;
+  }
+
+  .content2__description {
+    max-width: 31rem;
+  }
+
+  .content3 {
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 40rem;
+    padding-inline: var(--space-xl);
+    padding-block: var(--space-m);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .content3__text {
+    text-align: center;
+  }
+
+  .content3__description {
+    max-width: 31rem;
+  }
+
+  .content3__image {
+    order: -1;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    height: 50rem;
+    padding: var(--space-2xs) var(--space-3xl)
+  }
+
+  .footer__wrapper1-text {
+    max-width: 30rem;
+  }
+
+  .footer__wrapper2 {
+    order: -1;
+    padding-bottom: 0;
+  }
+
+  .footer__wrapper2-description {
+    max-width: 30rem;
+  }
+
+  .form-wrapper {
+    height: 2.5rem;
+  }
+
+  input[type='email'] {
+    width: 19.5rem;
+  }
+}
+
+
+/* 425px */
+@media (max-width: 27rem) {
+  header {
+    padding: var(--space-l) var(--space-m) 0 var(--space-m);
+  }
+
+  .logo {
+    width: 9rem;
+  }
+
+  .header__btn {
+    padding: var(--space-3xs) var(--space-2xs);
+  }
+
+  .hero__sec {
+    padding-inline: var(--space-l);
+  }
+
+  .hero__sec-paragraph {
+    margin-bottom: var(--space-xl);
+  }
+
+  .hero__sec-btn {
+    padding: var(--space-2xs) var(--space-l);
+  }
+
+  .hero__sec-analytics-wrapper {
+    gap: 7rem;
+  }
+
+  .content1 {
+    gap: 1rem;
+    padding-inline: var(--space-l);
+    height: 40rem;
+  }
+
+  .content1__heading {
+    font-size: var(--fs-step-2);
+  }
+
+  .content1__description {
+    max-width: 20rem;
+  }
+
+  .content1__image {
+    width: 19rem;
+  }
+
+  .content2 {
+    gap: 1rem;
+    padding-inline: var(--space-l);
+    height: 35rem;
+  }
+
+  .content2__heading {
+    font-size: var(--fs-step-2);
+  }
+
+  .content2__image {
+    width: 19rem;
+  }
+
+  .content2__description {
+    max-width: 21rem;
+  }
+
+  .content3 {
+    gap: 1rem;
+    padding-inline: var(--space-l);
+    height: 37rem;
+  }
+
+  .content3__heading {
+    font-size: var(--fs-step-2);
+  }
+
+  .content3__description {
+    max-width: 21rem;
+  }
+
+  .content3__image {
+    width: 19rem;
+  }
+
+  .cta__sec {
+    gap: var(--space-l);
+  }
+
+  .cta__sec-heading {
+    text-align: center;
+  }
+
+  .cta__sec-btn {
+    padding: var(--space-2xs) var(--space-l);
+  }
+
+  footer {
+    gap: 5rem;
+    height: 45rem;
+    padding: var(--space-2xs) var(--space-l);
+  }
+
+  .footer__wrapper1-text {
+    max-width: 30rem;
+  }
+
+  .footer__wrapper2 {
+    padding-bottom: 2rem;
+    width: 35rem;
+  }
+
+  .footer__wrapper2-description {
+    max-width: 23rem;
+  }
+
+  .form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+  }
+
+  input[type='email'] {
+    width: 21.4rem;
+  }
+}
+
+
+/* 375px */
+@media (max-width: 24rem) {
+  .logo {
+    width: 7rem;
+  }
+
+  .header__btn {
+    padding: var(--space-3xs) var(--space-3xs);
+  }
+
+  .hero__sec {
+    padding-inline: var(--space-m);
+  }
+
+  .hero__sec-h1 {
+    font-size: var(--fs-step-2);
+    margin-bottom: var(--space-m);
+  }
+
+  .hero__sec-btn {
+    padding: var(--space-2xs) var(--space-m);
+  }
+
+  .content1 {
+    height: 35rem;
+  }
+
+  .content1__image {
+    width: 15rem;
+  }
+
+  .content2 {
+    height: 33rem;
+  }
+
+  .content2__image {
+    width: 15rem;
+  }
+
+  .content3 {
+    height: 34rem;
+  }
+
+  .content3__image {
+    width: 15rem;
+  }
+
+  .cta__sec-btn {
+    padding: var(--space-2xs) var(--space-m);
+  }
+
+  .footer__wrapper2-description {
+    max-width: 19rem;
+  }
+
+  input[type='email'] {
+    width: 18.4rem;
+  }
+}
